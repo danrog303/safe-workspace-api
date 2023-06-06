@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:remove="all">A danger was detected!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p>
+    <p>Dear manager!</p>
+
+    <p>A danger was detected on camera <b th:text="${cameraName}" />.</p>
+
+    <p>A copy of the taken image has been included in the attachment of this email.</p>
+
+    <p>Sincerely, SafetyAPI team.</p>
+</p>
+</body>
+</html>
